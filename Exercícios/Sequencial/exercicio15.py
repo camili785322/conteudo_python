@@ -27,7 +27,7 @@ print("O valor pago de INSS é: ",resultado_INSS)
 resultado_sindicato = resultado_salario_bruto * sindicato
 print("O valor pago de sindicato é: ",resultado_sindicato)
 
-salario_liquido = resultado_salario_bruto - resultado_imposto_de_renda - resultado_INSS - resultado_sindicato
+salario_liquido = resultado_salario_bruto - resultado_imposto_de_renda - resultado_INSS - resultado_ sindicato
 print("O salario liquido é: ", salario_liquido)
 
 
