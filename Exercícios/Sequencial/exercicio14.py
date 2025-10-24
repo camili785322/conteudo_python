@@ -8,7 +8,31 @@
 #que João deverá pagar. Imprima os dados do programa com as
 #mensagens adequadas.
 
+<<<<<<< HEAD
 valor_peixe = float(input("Digite o peso do peixe: "))
 
 resultado = (valor_peixe - 50) *4
 print("O valor da multa por excesso é: ",resultado)
+=======
+#valor_peixe = float(input("Digite o peso do peixe: "))
+
+#resultado = (valor_peixe - 50) *4
+#print("O valor da multa por excesso é: ",resultado)
+
+limite_peso = 50
+multa_kg = 4.00
+
+peso_peixe = float(input("Quantos kg de peixe voce pescou?"))
+
+if peso_peixe > limite_peso:
+    excedente = peso_peixe - limite_peso
+    valor_multa = excedente * multa_kg
+    print(f"O excedente é {excedente} kg e o valor da multa é R$ {valor_multa }")
+else:
+    print(f" Não excedeu o limite de {limite_peso} kg")
+excedente = peso_peixe - limite_peso
+
+valor_multa = excedente * multa_kg
+
+print(f"o excedente é {excedente} kg e o valor da multa é R$ {valor_multa}")
+>>>>>>> f2348a86c481bb105e4bd4eecd01631635b6fbac
